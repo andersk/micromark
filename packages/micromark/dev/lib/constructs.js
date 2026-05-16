@@ -95,7 +95,7 @@ export const text = {
 export const insideSpan = {null: [attention, resolveText]}
 
 /** @satisfies {Extension['attentionMarkers']} */
-export const attentionMarkers = {null: [codes.asterisk, codes.underscore]}
+export const attentionMarkers = {null: []}
 
 /** @satisfies {Extension['disable']} */
 export const disable = {null: []}
